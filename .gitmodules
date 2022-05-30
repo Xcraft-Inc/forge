@@ -16,3 +16,6 @@
 [submodule "lib/goblin-warehouse"]
 	path = lib/goblin-warehouse
 	url = ../goblin-warehouse
+[submodule "lib/goblin-webpack"]
+	path = lib/goblin-webpack
+	url = ../goblin-webpack
