@@ -18,3 +18,4 @@
 	include = lib/xcraft-core-goblin
 	include = lib/xcraft-core-converters
 	include = lib/xcraft-dev-fontawesome
+	include = lib/xcraft-core-utils
