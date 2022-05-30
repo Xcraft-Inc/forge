@@ -7,3 +7,4 @@
 	include = lib/goblin-warehouse
 	include = lib/goblin-webpack
 	include = lib/goblin-workshop
+	include = lib/goblin-tradingpost

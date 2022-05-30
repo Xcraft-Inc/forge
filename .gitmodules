@@ -22,3 +22,6 @@
 [submodule "lib/goblin-workshop"]
 	path = lib/goblin-workshop
 	url = ../goblin-workshop
+[submodule "lib/goblin-tradingpost"]
+	path = lib/goblin-tradingpost
+	url = ../goblin-tradingpost
