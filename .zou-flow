@@ -20,3 +20,4 @@
 	include = lib/xcraft-dev-fontawesome
 	include = lib/xcraft-core-utils
 	include = lib/xcraft-core-host
+	include = lib/goblin-builder

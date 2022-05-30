@@ -61,3 +61,6 @@
 [submodule "lib/xcraft-core-host"]
 	path = lib/xcraft-core-host
 	url = ../xcraft-core-host
+[submodule "lib/goblin-builder"]
+	path = lib/goblin-builder
+	url = ../goblin-builder
