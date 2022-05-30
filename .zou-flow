@@ -15,3 +15,4 @@
 	include = lib/goblin-gadgets
 	include = lib/goblin-desktop
 	include = lib/goblin-desktop-web
+	include = lib/xcraft-core-goblin

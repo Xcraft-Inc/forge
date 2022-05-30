@@ -46,3 +46,6 @@
 [submodule "lib/goblin-desktop-web"]
 	path = lib/goblin-desktop-web
 	url = ../goblin-desktop-web
+[submodule "lib/xcraft-core-goblin"]
+	path = lib/xcraft-core-goblin
+	url = ../xcraft-core-goblin
