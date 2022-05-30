@@ -25,3 +25,6 @@
 	include = lib/goblin-garona
 	include = lib/goblin-configurator
 	include = lib/goblin-zeppelin
+[update-version]
+        freezed = true
+        package-json = package.json

@@ -1,0 +1,35 @@
+{
+  "name": "forge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_modules/xcraft-core-host/bin/host",
+  "dependencies": {
+    "cross-env": "^5.0.1"
+  },
+  "devDependencies": {
+  },
+  "prettier": "xcraft-dev-prettier",
+  "workspaces": [
+    "lib/*"
+  ],
+  "scripts": {
+    "start": "cross-env NODE_ENV=development electron .",
+    "electron-rebuild": "cross-env npm_config_target=14.2.9 npm_config_arch=x64 npm_config_target_arch=x64 npm_config_runtime=electron npm_config_disturl=https://electronjs.org/headers npm_config_build_from_source=true CFLAGS=-Wno-error CXXFLAGS=-Wno-error npm rebuild",
+    "prod": "cross-env NODE_ENV=production electron .",
+    "builder": "cross-env NODE_ENV=production NODE_OPTIONS=--max-old-space-size=4096 node . --log=2 --app=builder",
+    "zog": "cross-env NODE_ENV=development node . --log=2 --app=zog",
+    "test": "node -e \"require('child_process').spawnSync('mocha', ['--inspect', '-c', 'lib/' + JSON.parse(process.env.npm_config_argv).remain[0] + '/test'], {shell: true, stdio: 'inherit'})\" #",
+    "release": "cross-env GOBLINS_APP=builder ./zog electronify.build $npm_config_app ./build/$npm_config_app",
+    "postinstall": "xcraft-complete-dev-deps ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Xcraft-Inc/forge.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14 <18",
+    "npm": ">=8.7"
+  }
+}
