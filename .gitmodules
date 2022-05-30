@@ -1,3 +1,6 @@
 [submodule "lib/goblin-nabu"]
 	path = lib/goblin-nabu
 	url = ../goblin-nabu
+[submodule "lib/goblin-nabu-store"]
+	path = lib/goblin-nabu-store
+	url = ../goblin-nabu-store
