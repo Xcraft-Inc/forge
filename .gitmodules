@@ -10,3 +10,6 @@
 [submodule "lib/goblin-wm"]
 	path = lib/goblin-wm
 	url = ../goblin-wm
+[submodule "lib/goblin-laboratory"]
+	path = lib/goblin-laboratory
+	url = ../goblin-laboratory
