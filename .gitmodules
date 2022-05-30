@@ -13,3 +13,6 @@
 [submodule "lib/goblin-laboratory"]
 	path = lib/goblin-laboratory
 	url = ../goblin-laboratory
+[submodule "lib/goblin-warehouse"]
+	path = lib/goblin-warehouse
+	url = ../goblin-warehouse

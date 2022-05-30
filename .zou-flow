@@ -4,3 +4,4 @@
 	include = lib/goblin-client
 	include = lib/goblin-wm
 	include = lib/goblin-laboratory
+	include = lib/goblin-warehouse
