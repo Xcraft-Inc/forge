@@ -7,3 +7,6 @@
 [submodule "lib/goblin-client"]
 	path = lib/goblin-client
 	url = ../goblin-client
+[submodule "lib/goblin-wm"]
+	path = lib/goblin-wm
+	url = ../goblin-wm

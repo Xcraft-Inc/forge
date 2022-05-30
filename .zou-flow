@@ -2,3 +2,4 @@
 	include = lib/goblin-nabu
 	include = lib/goblin-nabu-store
 	include = lib/goblin-client
+	include = lib/goblin-wm
