@@ -28,3 +28,9 @@
 [submodule "lib/goblin-theme"]
 	path = lib/goblin-theme
 	url = ../goblin-theme
+[submodule "lib/goblin-shaman"]
+	path = lib/goblin-shaman
+	url = ../goblin-shaman
+[submodule "lib/goblin-rethink"]
+	path = lib/goblin-rethink
+	url = ../goblin-rethink
