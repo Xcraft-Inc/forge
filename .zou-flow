@@ -12,3 +12,6 @@
 	include = lib/goblin-shaman
 	include = lib/goblin-rethink
 	include = lib/goblin-overwatch
+	include = lib/goblin-gadgets
+	include = lib/goblin-desktop
+	include = lib/goblin-desktop-web

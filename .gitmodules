@@ -37,3 +37,12 @@
 [submodule "lib/goblin-overwatch"]
 	path = lib/goblin-overwatch
 	url = ../goblin-overwatch
+[submodule "lib/goblin-gadgets"]
+	path = lib/goblin-gadgets
+	url = ../goblin-gadgets
+[submodule "lib/goblin-desktop"]
+	path = lib/goblin-desktop
+	url = ../goblin-desktop
+[submodule "lib/goblin-desktop-web"]
+	path = lib/goblin-desktop-web
+	url = ../goblin-desktop-web
