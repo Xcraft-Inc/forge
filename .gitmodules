@@ -67,3 +67,6 @@
 [submodule "lib/goblin-elasticsearch"]
 	path = lib/goblin-elasticsearch
 	url = ../goblin-elasticsearch
+[submodule "lib/goblin-garona"]
+	path = lib/goblin-garona
+	url = ../goblin-garona
