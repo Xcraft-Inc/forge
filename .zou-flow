@@ -24,3 +24,4 @@
 	include = lib/goblin-elasticsearch
 	include = lib/goblin-garona
 	include = lib/goblin-configurator
+	include = lib/goblin-zeppelin
