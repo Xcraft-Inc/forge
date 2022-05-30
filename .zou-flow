@@ -6,3 +6,4 @@
 	include = lib/goblin-laboratory
 	include = lib/goblin-warehouse
 	include = lib/goblin-webpack
+	include = lib/goblin-workshop
