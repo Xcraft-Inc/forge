@@ -8,3 +8,4 @@
 	include = lib/goblin-webpack
 	include = lib/goblin-workshop
 	include = lib/goblin-tradingpost
+	include = lib/goblin-theme

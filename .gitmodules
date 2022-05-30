@@ -25,3 +25,6 @@
 [submodule "lib/goblin-tradingpost"]
 	path = lib/goblin-tradingpost
 	url = ../goblin-tradingpost
+[submodule "lib/goblin-theme"]
+	path = lib/goblin-theme
+	url = ../goblin-theme
