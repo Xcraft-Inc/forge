@@ -49,3 +49,6 @@
 [submodule "lib/xcraft-core-goblin"]
 	path = lib/xcraft-core-goblin
 	url = ../xcraft-core-goblin
+[submodule "lib/xcraft-core-converters"]
+	path = lib/xcraft-core-converters
+	url = ../xcraft-core-converters

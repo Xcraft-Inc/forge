@@ -16,3 +16,4 @@
 	include = lib/goblin-desktop
 	include = lib/goblin-desktop-web
 	include = lib/xcraft-core-goblin
+	include = lib/xcraft-core-converters
