@@ -52,3 +52,6 @@
 [submodule "lib/xcraft-core-converters"]
 	path = lib/xcraft-core-converters
 	url = ../xcraft-core-converters
+[submodule "lib/xcraft-dev-fontawesome"]
+	path = lib/xcraft-dev-fontawesome
+	url = ../xcraft-dev-fontawesome
