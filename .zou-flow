@@ -19,3 +19,4 @@
 	include = lib/xcraft-core-converters
 	include = lib/xcraft-dev-fontawesome
 	include = lib/xcraft-core-utils
+	include = lib/xcraft-core-host

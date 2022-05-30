@@ -58,3 +58,6 @@
 [submodule "lib/xcraft-core-utils"]
 	path = lib/xcraft-core-utils
 	url = ../xcraft-core-utils
+[submodule "lib/xcraft-core-host"]
+	path = lib/xcraft-core-host
+	url = ../xcraft-core-host
