@@ -34,3 +34,6 @@
 [submodule "lib/goblin-rethink"]
 	path = lib/goblin-rethink
 	url = ../goblin-rethink
+[submodule "lib/goblin-overwatch"]
+	path = lib/goblin-overwatch
+	url = ../goblin-overwatch
