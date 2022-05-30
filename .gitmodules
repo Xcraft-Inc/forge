@@ -64,3 +64,6 @@
 [submodule "lib/goblin-builder"]
 	path = lib/goblin-builder
 	url = ../goblin-builder
+[submodule "lib/goblin-elasticsearch"]
+	path = lib/goblin-elasticsearch
+	url = ../goblin-elasticsearch
