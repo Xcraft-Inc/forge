@@ -1,0 +1,31 @@
+{
+  "name": "nabu-thrall",
+  "versionFrom": "goblin-nabu",
+  "description": "Nabu Thrall",
+  "appCompany": "xcraft",
+  "appId": "nabu-thrall",
+  "xcraft": {
+    "xcraft-core-host": {
+      "mainQuest": "nabu-store.boot"
+    },
+    "xcraft-core-server": {
+      "userModulesFilter": "^goblin-",
+      "userModulesBlacklist": "^goblin-",
+      "modules": [
+        "goblin-elasticsearch",
+        "goblin-nabu-store",
+        "goblin-rethink",
+        "goblin-warehouse"
+      ]
+    },
+    "xcraft-core-bus": {
+      "host": "0.0.0.0",
+      "commanderPort": 10005,
+      "notifierPort": 20005,
+      "acceptIncoming": false
+    },
+    "xcraft-core-transport": {
+      "backends": ["ee", "axon"]
+    }
+  }
+}
