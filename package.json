@@ -43,7 +43,8 @@
     "xcraft-core-shredder": "^5.0.0",
     "xcraft-dev-fontawesome": "^0.1.0",
     "xcraft-dev-prettier": "^2.0.0",
-    "xcraft-dev-rules": "^2.0.0"
+    "xcraft-dev-rules": "^2.0.0",
+    "xcraft-dev-sqlite": "^1.0.0"
   },
   "prettier": "xcraft-dev-prettier",
   "workspaces": [
@@ -57,7 +58,7 @@
     "zog": "cross-env NODE_ENV=development node . --log=2 --app=zog",
     "test": "node -e \"require('child_process').spawnSync('mocha', ['--inspect', '-c', 'lib/' + JSON.parse(process.env.npm_config_argv).remain[0] + '/test'], {shell: true, stdio: 'inherit'})\" #",
     "release": "cross-env GOBLINS_APP=builder ./zog electronify.build $npm_config_app ./build/$npm_config_app",
-    "postinstall": "xcraft-complete-dev-deps ."
+    "postinstall": "xcraft-complete-dev-deps . && xcraft-dev-sqlite ."
   },
   "repository": {
     "type": "git",
