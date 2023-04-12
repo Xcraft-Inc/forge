@@ -76,3 +76,6 @@
 [submodule "lib/goblin-zeppelin"]
 	path = lib/goblin-zeppelin
 	url = ../goblin-zeppelin
+[submodule "lib/xcraft-core-stones"]
+	path = lib/xcraft-core-stones
+	url = ../xcraft-core-stones
