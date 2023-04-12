@@ -1,0 +1,25 @@
+{
+  "name": "goblin-stonehenge",
+  "version": "0.1.0",
+  "description": "Goblin Stonehenge",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "config": {
+    "xcraft": {
+      "commands": true
+    }
+  },
+  "dependencies": {
+    "xcraft-core-goblin": "^5.0.0",
+    "xcraft-core-stones": "^0.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4",
+    "xcraft-dev-prettier": "^2.0.0",
+    "xcraft-dev-rules": "^4.1.0"
+  },
+  "prettier": "xcraft-dev-prettier"
+}
