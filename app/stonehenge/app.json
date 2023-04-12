@@ -1,0 +1,14 @@
+{
+  "name": "stonehenge",
+  "description": "Stonehenge",
+  "appCompany": "goblins",
+  "appId": "stonehenge",
+  "xcraft": {
+    "xcraft-core-host": {
+      "mainQuest": "stone.init"
+    },
+    "xcraft-core-server": {
+      "modules": ["goblin-stonehenge", "goblin-warehouse"]
+    }
+  }
+}
