@@ -5,7 +5,7 @@
   "appId": "stonehenge",
   "xcraft": {
     "xcraft-core-host": {
-      "mainQuest": "stone.init"
+      "mainQuest": "valinor.init"
     },
     "xcraft-core-server": {
       "modules": ["goblin-stonehenge", "goblin-warehouse"]
