@@ -79,3 +79,6 @@
 [submodule "lib/xcraft-core-stones"]
 	path = lib/xcraft-core-stones
 	url = ../xcraft-core-stones
+[submodule "lib/xcraft-core-horde"]
+	path = lib/xcraft-core-horde
+	url = ../xcraft-core-horde
