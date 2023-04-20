@@ -26,5 +26,6 @@
 	include = lib/goblin-configurator
 	include = lib/goblin-zeppelin
 	include = lib/xcraft-core-stones
+	include = lib/xcraft-core-bus
 [update-version]
 	package-json = package.json
