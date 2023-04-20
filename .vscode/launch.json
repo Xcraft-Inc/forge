@@ -30,9 +30,23 @@
       "type": "node",
       "request": "launch",
       "name": "stonehenge",
-      "presentation": {"group": "nabu"},
+      "presentation": {"group": "stonehenge"},
       "program": "${workspaceRoot}/node_modules/xcraft-core-host/bin/host",
       "args": ["--debug-child", "--log=2", "--app=stonehenge"],
+      "outputCapture": "std",
+      "autoAttachChildProcesses": true,
+      "console": "internalConsole",
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "stonehenge-thrall",
+      "presentation": {"group": "stonehenge"},
+      "program": "${workspaceRoot}/node_modules/xcraft-core-host/bin/host",
+      "args": ["--debug-child", "--log=2", "--app=stonehenge-thrall"],
       "outputCapture": "std",
       "autoAttachChildProcesses": true,
       "console": "internalConsole",

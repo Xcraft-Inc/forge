@@ -1,0 +1,22 @@
+{
+  "name": "stonehenge-thrall",
+  "description": "Stonehenge Thrall",
+  "appCompany": "goblins",
+  "appId": "stonehenge-thrall",
+  "xcraft": {
+    "xcraft-core-host": {},
+    "xcraft-core-server": {
+      "userModulesFilter": "^goblin-",
+      "modules": ["goblin-warehouse"]
+    },
+    "xcraft-core-bus": {
+      "host": "127.0.0.1",
+      "commanderPort": 10000,
+      "notifierPort": 20000,
+      "acceptIncoming": false
+    },
+    "xcraft-core-transport": {
+      "backends": ["ee", "axon"]
+    }
+  }
+}
