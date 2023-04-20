@@ -82,3 +82,6 @@
 [submodule "lib/xcraft-core-horde"]
 	path = lib/xcraft-core-horde
 	url = ../xcraft-core-horde
+[submodule "lib/xcraft-core-bus"]
+	path = lib/xcraft-core-bus
+	url = ../xcraft-core-bus
