@@ -7,7 +7,7 @@
     "xcraft-core-host": {},
     "xcraft-core-server": {
       "userModulesFilter": "^goblin-",
-      "modules": ["goblin-warehouse"]
+      "modules": ["goblin-garona", "goblin-warehouse"]
     },
     "xcraft-core-bus": {
       "host": "127.0.0.1",
@@ -17,6 +17,12 @@
     },
     "xcraft-core-transport": {
       "backends": ["ee", "axon"]
+    },
+    "xcraft-core-goblin": {
+      "enableGuildEnforcerCache": true
+    },
+    "goblin-garona": {
+      "appId": "stonehenge-thrall"
     }
   }
 }
