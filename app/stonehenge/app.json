@@ -10,9 +10,6 @@
     "xcraft-core-server": {
       "modules": ["goblin-stonehenge", "goblin-warehouse"]
     },
-    "xcraft-core-bus": {
-      "horde": {"passive": true}
-    },
     "xcraft-core-horde": {
       "hordes": ["stonehenge-thrall"],
       "topology": {
@@ -20,7 +17,9 @@
           "host": "127.0.0.1",
           "commanderPort": 10000,
           "notifierPort": 20000,
-          "timeout": 3600000
+          "timeout": 3600000,
+          "optimistLag": true,
+          "passive": true
         }
       }
     }
